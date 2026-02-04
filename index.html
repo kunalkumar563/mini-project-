@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Internet Speed Test</h1>
+        <div class="speed-display">
+            <div class="speed-item">
+                <span class="speed-value" id="download">0</span>
+                <span class="speed-unit">Mbps</span>
+                <span class="speed-label">Download</span>
+            </div>
+            <div class="speed-item">
+                <span class="speed-value" id="upload">0</span>
+                <span class="speed-unit">Mbps</span>
+                <span class="speed-label">Upload</span>
+            </div>
+            <div class="speed-item">
+                <span class="speed-value" id="ping">0</span>
+                <span class="speed-unit">ms</span>
+                <span class="speed-label">Ping</span>
+            </div>
+        </div>
+        <button id="startTest" class="test-btn">Start Test</button>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="status" id="status">Click "Start Test" to begin</div>
+        <div style="margin-top: 20px;">
+            <a href="verify.html" style="color: #667eea; text-decoration: none; font-size: 0.9em;">📊 Verify Results with Other Sites</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
